@@ -32,7 +32,8 @@ body {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 10% 25%;
+    padding: 10% 30%;
+    
 }
 
 .img {
@@ -41,6 +42,7 @@ body {
     width: 100%;
     border-top-left-radius: .7rem;
     border-bottom-left-radius: .7rem;
+    
    /*  height:inherit; */
     /* max-width: 100%; */
     /*  min-height: 100%; */
@@ -48,8 +50,8 @@ body {
 
 .main {
     background-color: var(--white);
-    padding: 2.2rem;
-    padding-right: 3rem;
+    padding: 1.7rem;
+    padding-right: 2rem;
     border-top-right-radius: .7rem;
     border-bottom-right-radius: .7rem;
 }
@@ -65,7 +67,7 @@ body {
 .title {
     padding: 1.4rem 0;
     font-family: var(--titles);
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     line-height: 2.2rem;
 }
 
@@ -98,11 +100,17 @@ body {
 }
 
 .btn {
+    display: flex;
+    justify-content: center;
+    gap: .7rem;
     min-width: 100%;
     background-color: var(--dark-cyan);
     color: var(--white);
-    font-family: var(--titles);
+    font-family: var(--text);
+    font-weight: 500;
     padding: .8rem;
     border: none;
     border-radius: .5rem;
+    /* letter-spacing: 0.03rem; */
+    font-size: .9rem;
 }
