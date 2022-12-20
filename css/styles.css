@@ -9,6 +9,7 @@
 :root {
     /* PRIMARY */
     --dark-cyan: hsl(158, 36%, 37%);
+    --dark-cyan-two: hsl(159, 35%, 24%);
     --cream: hsl(30, 38%, 92%);
 
     /* NEUTRAL */
@@ -42,16 +43,13 @@ body {
     width: 100%;
     border-top-left-radius: .7rem;
     border-bottom-left-radius: .7rem;
-    
-   /*  height:inherit; */
-    /* max-width: 100%; */
-    /*  min-height: 100%; */
 }
 
 .main {
     background-color: var(--white);
     padding: 1.7rem;
     padding-right: 2rem;
+    padding-top: 2rem;
     border-top-right-radius: .7rem;
     border-bottom-right-radius: .7rem;
 }
@@ -113,4 +111,9 @@ body {
     border-radius: .5rem;
     /* letter-spacing: 0.03rem; */
     font-size: .9rem;
+
+}
+
+.btn:hover{
+    background-color: var(--dark-cyan-two);
 }
